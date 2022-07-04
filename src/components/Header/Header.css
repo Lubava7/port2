@@ -6,6 +6,7 @@
   overflow-y: auto;
   position: fixed;
   perspective: 1px;
+  z-index: -5;
 }
 .main-header .first-block {
   position: absolute;
@@ -22,27 +23,32 @@
 }
 .first-block div {
   box-shadow: 2px 2px 2px 3px #383838;
-  background-color: rgb(106, 106, 106);
+  background-color: rgba(106, 106, 106 , 0.8);
   margin: 3px;
   padding: 2px;
 }
 .first-block .one {
+  /* background-color: rgba(209, 28, 28, 0.5); */
   width: 75px;
   height: 80px;
 }
 .first-block .two {
+  /* background-color: rgba(220, 85, 12, 0.5); */
   width: 85px;
   height: 90px;
 }
 .first-block .three {
+  /* background-color: rgba(252, 236, 0, 0.5); */
   width: 50px;
   height: 55px;
 }
 .first-block .four {
+  /* background-color: rgba(9, 255, 0, 0.5); */
   width: 45px;
   height: 50px;
 }
 .first-block .five {
+  /* background-color: rgba(0, 208, 255, 0.5); */
   width: 80px;
   height: 85px;
 }
@@ -70,22 +76,27 @@
   z-index: -10;
 }
 .second-block .one {
+  background-color: rgba(209, 28, 28, 0.5);
   width: 95px;
   height: 105px;
 }
 .second-block .two {
+  background-color: rgba(220, 85, 12, 0.5);
   width: 90px;
   height: 120px;
 }
 .second-block .three {
+  background-color: rgba(252, 236, 0, 0.5);
   width: 70px;
   height: 100px;
 }
 .second-block .four {
+  background-color: rgba(9, 255, 0, 0.5);
   width: 60px;
   height: 65px;
 }
 .second-block .five {
+  background-color: rgba(0, 208, 255, 0.5);
   width: 75px;
   height: 110px;
 }
