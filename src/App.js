@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
-      <Route path="HTML_example" element={<Lending />} />
+      <Route path="lending" element={<Lending />} />
     </Routes>
   );
 }

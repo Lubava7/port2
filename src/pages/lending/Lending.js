@@ -14,7 +14,10 @@ function Lending() {
         <div className="all-cubes">
           <div className="cube1">HTML markup example part</div>
           <div className="cube2">
-            <img src="../../../images/CssMark.png" alt="CSS" />
+            <img
+              src="https://github.com/I-keep-trying/demo5/blob/master/src/images/space.jpg?raw=trueCssMark.png"
+              alt="CSS"
+            />
           </div>
           <div className="cube3">
             <img src="../../../images/HtmlMark.png" alt="HTML" />
