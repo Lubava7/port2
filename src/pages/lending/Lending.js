@@ -15,28 +15,40 @@ function Lending() {
           <div className="cube1">HTML markup example part</div>
           <div className="cube2">
             <img
-              src="https://github.com/I-keep-trying/demo5/blob/master/src/images/space.jpg?raw=trueCssMark.png"
+              src="https://github.com/Lubava7/port2/blob/master/public/images/CssMark.png?raw=true"
               alt="CSS"
             />
           </div>
           <div className="cube3">
-            <img src="../../../images/HtmlMark.png" alt="HTML" />
+            <img
+              src="https://github.com/Lubava7/port2/blob/master/public/images/HtmlMark.png?raw=true"
+              alt="HTML"
+            />
           </div>
           <div className="cube4">
-            <img src="../../../images/JSmark.png" alt="JS" />
+            <img
+              src="https://github.com/Lubava7/port2/blob/master/public/images/JSmark.png?raw=true"
+              alt="JS"
+            />
           </div>
         </div>
       </section>
       <section className="body-section">
         <div id="peach" className="div-photo-section">
-          <img src="../../images/peach.png" alt="peach" />
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/public/images/peach.png?raw=true"
+            alt="peach"
+          />
           <div>
             <p className="title">Peaches</p>
             <Text1 />
           </div>
         </div>
         <div id="pinkFlower" className="div-photo-section-reverse">
-          <img src="../../../images/pinkFlower.png" alt="pinkFlower" />
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/public/images/pinkFlower.png?raw=true"
+            alt="pinkFlower"
+          />
           <div>
             <p className="title">Pink Flower</p>
             <Text2 />
@@ -49,21 +61,30 @@ function Lending() {
           </p>
         </div>
         <div id="kebab" className="div-photo-section">
-          <img src="../../../images/porkKebab.png" alt="porkKebab" />
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/public/images/porkKebab.png?raw=true"
+            alt="porkKebab"
+          />
           <div>
             <p className="title">Pork Kebab</p>
             <Text3 />
           </div>
         </div>
         <div id="spruce" className="div-photo-section-reverse">
-          <img src="../../../images/spruce.png" alt="spruce" />
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/public/images/spruce.png?raw=true"
+            alt="spruce"
+          />
           <div>
             <p className="title">Spruce</p>
             <Text4 />
           </div>
         </div>
         <div id="yellowFlower" className="div-photo-section">
-          <img src="../../../images/yellowFlower.png" alt="yellowFlower" />
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/public/images/yellowFlower.png?raw=true"
+            alt="yellowFlower"
+          />
           <div>
             <p className="title">Yellow Flower</p>
             <Text5 />
@@ -75,7 +96,10 @@ function Lending() {
           <p>&copy; 2022 Lubava Example Page</p>
           <div className="github">
             <a href="https://github.com/Lubava7">
-              <img src="../../../images/github.png" alt="GitHub" />
+              <img
+                src="https://github.com/Lubava7/port2/blob/master/public/images/github.png?raw=true"
+                alt="GitHub"
+              />
               GitHub
             </a>
           </div>
