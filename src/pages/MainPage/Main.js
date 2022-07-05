@@ -47,33 +47,44 @@ function Main() {
             <div className="projects-part">
               <div className="html-proj">
                 <div className="descript">
-                  <Link to="/lending">lending</Link>
+                  <Link to="/lending">
+                    <h1>Lending</h1>
+                  </Link>
                 </div>
-                <img src="" alt="html"></img>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/prevHTML.png?raw=true"
+                  alt="html"
+                ></img>
               </div>
               <div className="react-got">
                 <div className="descript">
-                  <a href="https://lubava7.github.io/react-got/">react got</a>
+                  <a href="https://lubava7.github.io/react-got/">
+                    <h1>React-App GOT</h1>
+                  </a>
                 </div>
                 <img src="" alt="html"></img>
               </div>
               <div className="zakaz">
                 <div className="descript">
-                  <a href="https://lubava7.github.io/dmitry-zakaz/">zakaz</a>
+                  <a href="https://lubava7.github.io/dmitry-zakaz/">
+                    <h1>Markup on Figma Layout</h1>
+                  </a>
                 </div>
                 <img src="" alt="html"></img>
               </div>
               <div className="leadHit">
                 <div className="descript">
                   <a href="https://lubava7.github.io/vue-test-task-LeadHit/">
-                    leadHit
+                    <h1>VueCLI-App</h1>
                   </a>
                 </div>
                 <img src="" alt="html"></img>
               </div>
               <div className="jasmine">
                 <div className="descript">
-                  <a href="https://lubava7.github.io/lend/">jasmine</a>
+                  <a href="https://lubava7.github.io/lend/">
+                    <h1>Markup on Figma Layout</h1>
+                  </a>
                 </div>
                 <img src="" alt="html"></img>
               </div>

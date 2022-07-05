@@ -41,26 +41,96 @@
 }
 .html-proj{
 border: 0.5px solid black;
-height: 300px;
+height: 500px;
 overflow-y:scroll;
+display: flex;
+flex-direction: row;
+padding: 20px 20px 0 0;
+}
+.html-proj img{
+  width: 50%;
+  height: 85%;
+  filter: blur(3px);
+}
+.html-proj img:hover{
+  filter: blur(0px);
+  cursor: pointer;
+}
+.html-proj .descript{
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
 }
 .react-got{
   border: 0.5px solid black;
-  height: 300px;
+  height: 500px;
   overflow-y:scroll;
+  display: flex;
+flex-direction: row;
+padding: 20px 20px 0 0;
+}
+.react-got img:hover{
+  filter: blur(0px);
+  cursor: pointer;
+}
+.react-got .descript{
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
 }
 .zakaz{
   border: 0.5px solid black;
-  height: 300px;
+  height: 500px;
   overflow-y:scroll;
+  display: flex;
+flex-direction: row;
+padding: 20px 20px 0 0;
+}
+.zakaz img:hover{
+  filter: blur(0px);
+  cursor: pointer;
+}
+.zakaz .descript{
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
 }
 .leadHit{
   border: 0.5px solid black;
-  height: 300px;
+  height: 500px;
   overflow-y:scroll;
+  display: flex;
+flex-direction: row;
+padding: 20px 20px 0 0;
+}
+.leadHit img:hover{
+  filter: blur(0px);
+  cursor: pointer;
+}
+.leadHit .descript{
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
 }
 .jasmine{
   border: 0.5px solid black;
-  height: 300px;
+  height: 500px;
   overflow-y:scroll;
+  display: flex;
+flex-direction: row;
+padding: 20px 20px 0 0;
+}
+.jasmine img:hover{
+  filter: blur(0px);
+  cursor: pointer;
+}
+.jasmine .descript{
+    width: 50%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
 }
