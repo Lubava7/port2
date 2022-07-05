@@ -62,7 +62,10 @@ function Main() {
                     <h1>React-App GOT</h1>
                   </a>
                 </div>
-                <img src="" alt="html"></img>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/GOT.png?raw=true"
+                  alt="html"
+                ></img>
               </div>
               <div className="zakaz">
                 <div className="descript">
@@ -70,7 +73,10 @@ function Main() {
                     <h1>Markup on Figma Layout</h1>
                   </a>
                 </div>
-                <img src="" alt="html"></img>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/dmitry.png?raw=true"
+                  alt="html"
+                ></img>
               </div>
               <div className="leadHit">
                 <div className="descript">
@@ -78,7 +84,10 @@ function Main() {
                     <h1>VueCLI-App</h1>
                   </a>
                 </div>
-                <img src="" alt="html"></img>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/leadhit.png?raw=true"
+                  alt="html"
+                ></img>
               </div>
               <div className="jasmine">
                 <div className="descript">
@@ -86,7 +95,10 @@ function Main() {
                     <h1>Markup on Figma Layout</h1>
                   </a>
                 </div>
-                <img src="" alt="html"></img>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/jasmine.png?raw=true"
+                  alt="html"
+                ></img>
               </div>
             </div>
           </div>
