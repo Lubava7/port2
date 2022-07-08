@@ -48,7 +48,7 @@ function Main() {
               <div className="html-proj">
                 <div className="descript">
                   <Link to="/lending">
-                    <h1>Lending</h1>
+                    <h1>Landing</h1>
                   </Link>
                 </div>
                 <img
