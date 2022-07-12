@@ -53,7 +53,7 @@ justify-content: center;
 align-items: center;
 margin:20px 0 0 0;
 }
-.html-proj, .react-got , .zakaz , .leadHit , .jasmine ::-webkit-scrollbar {
+.html-proj::-webkit-scrollbar, .react-got::-webkit-scrollbar , .zakaz::-webkit-scrollbar , .leadHit::-webkit-scrollbar , .jasmine::-webkit-scrollbar {
 width: 0;
   }
 .html-proj img , .react-got img , .zakaz img , .leadHit img, .jasmine img{
