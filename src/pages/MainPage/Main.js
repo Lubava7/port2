@@ -100,6 +100,17 @@ function Main() {
                   alt="html"
                 ></img>
               </div>
+              <div className="todoNew">
+                <div className="descript">
+                  <a href="https://lubava7.github.io/react-todo-new/">
+                    <h1>Todo List React-app</h1>
+                  </a>
+                </div>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/jasmine.png?raw=true"
+                  alt="todo"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
