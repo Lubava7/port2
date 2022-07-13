@@ -119,7 +119,7 @@ function Main() {
                 </div>
                 <img
                   src="https://github.com/Lubava7/port2/blob/master/public/images/booklist.png?raw=true"
-                  alt="todo"
+                  alt="booklist"
                 ></img>
               </div>
               <div className="projCart">
@@ -129,8 +129,8 @@ function Main() {
                   </a>
                 </div>
                 <img
-                  src="https://github.com/Lubava7/port2/blob/master/public/images/booklist.png?raw=true"
-                  alt="todo"
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/googlepage.jpg?raw=true"
+                  alt="google"
                 ></img>
               </div>
             </div>
