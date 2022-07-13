@@ -107,7 +107,7 @@ function Main() {
                   </a>
                 </div>
                 <img
-                  src="https://github.com/Lubava7/port2/blob/master/public/images/jasmine.png?raw=true"
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/todoNew.png?raw=true"
                   alt="todo"
                 ></img>
               </div>
