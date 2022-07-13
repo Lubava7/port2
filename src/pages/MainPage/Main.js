@@ -45,7 +45,7 @@ function Main() {
               <h1>My projects down below</h1>
             </div>
             <div className="projects-part">
-              <div className="html-proj">
+              <div className="projCart">
                 <div className="descript">
                   <Link to="/lending">
                     <h1>Landing</h1>
@@ -56,7 +56,7 @@ function Main() {
                   alt="html"
                 ></img>
               </div>
-              <div className="react-got">
+              <div className="projCart">
                 <div className="descript">
                   <a href="https://lubava7.github.io/react-got/">
                     <h1>React-App GOT</h1>
@@ -67,7 +67,7 @@ function Main() {
                   alt="html"
                 ></img>
               </div>
-              <div className="zakaz">
+              <div className="projCart">
                 <div className="descript">
                   <a href="https://lubava7.github.io/dmitry-zakaz/">
                     <h1>Markup on Figma Layout</h1>
@@ -78,7 +78,7 @@ function Main() {
                   alt="html"
                 ></img>
               </div>
-              <div className="leadHit">
+              <div className="projCart">
                 <div className="descript">
                   <a href="https://lubava7.github.io/vue-test-task-LeadHit/">
                     <h1>VueCLI-App</h1>
@@ -89,7 +89,7 @@ function Main() {
                   alt="html"
                 ></img>
               </div>
-              <div className="jasmine">
+              <div className="projCart">
                 <div className="descript">
                   <a href="https://lubava7.github.io/lend/">
                     <h1>Markup on Figma Layout</h1>
@@ -100,7 +100,7 @@ function Main() {
                   alt="html"
                 ></img>
               </div>
-              <div className="todoNew">
+              <div className="projCart">
                 <div className="descript">
                   <a href="https://lubava7.github.io/react-todo-new/">
                     <h1>Todo List React-app</h1>
@@ -108,6 +108,28 @@ function Main() {
                 </div>
                 <img
                   src="https://github.com/Lubava7/port2/blob/master/public/images/todoNew.png?raw=true"
+                  alt="todo"
+                ></img>
+              </div>
+              <div className="projCart">
+                <div className="descript">
+                  <a href="https://lubava7.github.io/react-booklist/">
+                    <h1>Book List React-app</h1>
+                  </a>
+                </div>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/booklist.png?raw=true"
+                  alt="todo"
+                ></img>
+              </div>
+              <div className="projCart">
+                <div className="descript">
+                  <a href="https://lubava7.github.io/google-page/">
+                    <h1>My first HTML-markup</h1>
+                  </a>
+                </div>
+                <img
+                  src="https://github.com/Lubava7/port2/blob/master/public/images/booklist.png?raw=true"
                   alt="todo"
                 ></img>
               </div>

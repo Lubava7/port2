@@ -45,12 +45,7 @@ a{
   height: 100%;
 }
 
-.html-proj, 
-.react-got , 
-.zakaz , 
-.leadHit ,
- .jasmine ,
- .todoNew {
+.projCart{
 height: 400px;
 overflow-y:scroll;
 display: flex;
@@ -58,42 +53,22 @@ justify-content: center;
 align-items: center;
 margin:20px 0 0 0;
 }
-.html-proj::-webkit-scrollbar, 
-.react-got::-webkit-scrollbar , 
-.zakaz::-webkit-scrollbar ,
- .leadHit::-webkit-scrollbar ,
-  .jasmine::-webkit-scrollbar ,
-  .todoNew::-webkit-scrollbar
+.projCart::-webkit-scrollbar
   {
 width: 0;
   }
-.html-proj img , 
-.react-got img , 
-.zakaz img , 
-.leadHit img, 
-.jasmine img,
-.todoNew img
+.projCart img
 {
   width: 100%;
   height: 100%;
   filter: blur(3px);
 }
-.html-proj img:hover ,
- .react-got img:hover , 
- .zakaz img:hover , 
- .leadHit img:hover , 
- .jasmine img:hover,
-  .todoNew img:hover
+.projCart img:hover
  {
   filter: blur(0px);
   cursor: pointer;
 }
-.html-proj .descript , 
-.react-got .descript , 
-.zakaz .descript , 
-.leadHit .descript , 
-.jasmine .descript
-.todoNew .descript
+.projCart .descript
 {
     position: absolute;
     z-index: 100;
@@ -109,12 +84,7 @@ width: 0;
 }
 
 @media screen and (max-width:599px){
-  .html-proj, 
-  .react-got , 
-  .zakaz , 
-  .leadHit , 
-  .jasmine , 
-  .todoNew {
+  .projCart {
     height: 400px;
     overflow-y:scroll;
     display: flex;
@@ -122,31 +92,18 @@ width: 0;
     align-items: center;
     margin: 20px 0 0 0;
     }
-    .html-proj img , 
-    .react-got img , 
-    .zakaz img , 
-    .leadHit img, 
-    .jasmine img , 
-    .todoNew img{
+    .projCart img
+    {
       width: 100%;
       height: 100%;
       filter: blur(3px);
     }
-    .html-proj img:hover , 
-    .react-got img:hover , 
-    .zakaz img:hover , 
-    .leadHit img:hover , 
-    .jasmine img:hover , 
-    .todoNew img:hover{
+    .projCart img:hover
+    {
       filter: blur(0px);
       cursor: pointer;
     }
-    .html-proj .descript , 
-    .react-got .descript ,
-     .zakaz .descript , 
-     .leadHit .descript , 
-     .jasmine .descript , 
-     .todoNew .descript{
+    .projCart .descript{
         position: absolute;
         z-index: 100;
         height: 400px; 
@@ -162,12 +119,7 @@ width: 0;
     
 }
 @media screen and (min-width:600px){
-  .html-proj, 
-  .react-got , 
-  .zakaz , 
-  .leadHit , 
-  .jasmine  , 
-  .todoNew {
+  .projCart {
     height: 700px;
     overflow-y:scroll;
     display: flex;
@@ -175,30 +127,16 @@ width: 0;
     justify-content: center;
     align-items: center;
     }
-    .html-proj img , 
-    .react-got img , 
-    .zakaz img , 
-    .leadHit img, 
-    .jasmine img , 
-    .todoNew img{
+    .projCart img {
       width: 90%;
       height: 90%;
       filter: blur(3px);
     }
-    .html-proj img:hover , 
-    .react-got img:hover , 
-    .zakaz img:hover , 
-    .leadHit img:hover , 
-    .jasmine img:hover{
+    .projCart img:hover{
       filter: blur(0px);
       cursor: pointer;
     }
-    .html-proj .descript , 
-    .react-got .descript , 
-    .zakaz .descript , 
-    .leadHit .descript , 
-    .jasmine .descript , 
-    .todoNew .descript{
+    .projCart .descript{
       z-index: 0;
       position:relative;
         width: 100%;
@@ -223,12 +161,7 @@ width: 0;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .html-proj, 
-  .react-got , 
-  .zakaz , 
-  .leadHit , 
-  .jasmine ,
-  .todoNew
+  .projCart
    {
     height: 500px;
     overflow-y:scroll;
@@ -238,33 +171,18 @@ width: 0;
     align-items: center;
     margin: 25px;
     }
-    .html-proj img , 
-    .react-got img , 
-    .zakaz img , 
-    .leadHit img, 
-    .jasmine img , 
-    .todoNew img
+    .projCart img 
     {
       width: 400px;
       height: 400px;
       filter: blur(3px);
     }
-    .html-proj img:hover , 
-    .react-got img:hover , 
-    .zakaz img:hover ,
-     .leadHit img:hover , 
-     .jasmine img:hover ,
-     .todoNew img:hover
+    .projCart img:hover
      {
       filter: blur(0px);
       cursor: pointer;
     }
-    .html-proj .descript , 
-    .react-got .descript , 
-    .zakaz .descript ,
-     .leadHit .descript , 
-     .jasmine .descript , 
-      .todoNew .descript
+    .projCart .descript
      {
       z-index: 0;
       position:relative;
