@@ -5,31 +5,6 @@ import "../../components/Header/Header.css";
 import Title from "../../components/Title/Title";
 import { Link } from "react-router-dom";
 
-// import React from "react";
-import VirtualSky from "react-virtual-sky";
-
-function Star() {
-  const config = {
-    projection: "lambert",
-    azOff: 0,
-    height: 800,
-    width: 800,
-    latitude: 51.746449,
-    longitude: 19.620693,
-    time: new Date(),
-    visibility: {
-      starMag: 6,
-      showConstellations: true,
-      showEcliptic: true,
-    },
-  };
-  return (
-    <div className="App">
-      <VirtualSky id="startmap" config={config} />
-    </div>
-  );
-}
-
 function Main() {
   return (
     <div>
@@ -48,9 +23,20 @@ function Main() {
 
           <div className="base"></div>
         </div>
+        <div className="second-block">
+          <div className="one"></div>
+          <div className="two"></div>
+          <div className="three"></div>
+          <div className="four"></div>
+          <div className="five"></div>
+          <div className="one"></div>
+          <div className="two"></div>
+          <div className="three"></div>
+          <div className="four"></div>
+          <div className="five"></div>
 
-        <div className="second-block"></div>
-        <div className="star-block">{Star()}</div>
+          <div className="back"></div>
+        </div>
 
         <div className="main-body">
           <Title />

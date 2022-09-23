@@ -2,22 +2,6 @@ a {
   text-decoration: none;
   color: whitesmoke;
 }
-.main-header {
-  height: 100%;
-}
-/* .star-block {
-  background-position: relative;
-  background-repeat: no-repeat;
-  background-size: 500px;
-  height: 100%;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  bottom: 0;
-  left: 100px;
-  width: 100%;
-  transform: translateZ(-1px) scale(2);
-} */
 .main-body {
   padding-top: 200px;
   background-color: rgba(106, 106, 106, 0.614);
@@ -40,16 +24,23 @@ a {
   display: flex;
   flex-direction: row-reverse;
 }
+.second-block .back {
+  background-color: rgba(255, 0, 0, 0.4);
+  position: absolute;
+  top: 255px;
+  right: 0;
+  bottom: 0;
+  left: 100px;
+  transform: translateZ(-1px) scale(2);
 
-.second-block {
-  background-image: url(../../../public/images/transparentPng/rocketMaket1.png);
-  background-size: 15%;
-  height: 100%;
+  height: 100px;
+  width: 100px;
+  z-index: -15;
 }
 
 .projects-part {
   margin: 50px 0 0 0;
-  /* background-color: rgba(106, 106, 106, 0.614); */
+  background-color: rgba(106, 106, 106, 0.614);
   width: 100%;
   height: 100%;
 }
@@ -155,7 +146,7 @@ a {
 @media screen and (min-width: 900px) {
   .projects-part {
     margin: 50px 0 0 0;
-    /* background-color: rgba(106, 106, 106, 0.614); */
+    background-color: rgba(106, 106, 106, 0.614);
     width: 100%;
     height: 100%;
     display: flex;
