@@ -30,17 +30,17 @@ a {
 
 .first-block .base {
   background-color: rgba(16, 23, 71, 0.4);
-  /* background-image: url("../../../public/images/transparentPng/sputnic.png"); */
-  /* background-repeat: no-repeat;
-  background-size: 450px; */
+  background-image: url("https://github.com/Lubava7/port2/blob/master/public/images/transparentPng/cosmos.jpg?raw=true");
+  background-repeat: no-repeat;
   position: absolute;
   top: 100px;
   right: 0;
   bottom: 0;
   left: 350px;
   transform: translateZ(0);
-  height: 400px;
-  width: 400px;
+  border-radius: 50%;
+  height: 600px;
+  width: 900px;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -52,15 +52,15 @@ a {
 }
 @keyframes moveLeft {
   0% {
-    left: 200%;
+    left: 140%;
   }
   100% {
-    left: -200%;
+    left: -140%;
   }
 }
 @keyframes rotate {
   0% {
-    bottom: 10%;
+    bottom: 20%;
     transform: rotate(0deg);
   }
   25% {
@@ -73,161 +73,44 @@ a {
     bottom: 10%;
   }
   100% {
-    bottom: 10%;
+    bottom: 20%;
     transform: rotate(360deg);
   }
 }
-
+.rocket {
+  position: absolute;
+  height: 1400px;
+  width: 700px;
+  z-index: 0;
+}
 .second-block {
-  background-image: url("../../../public/images/transparentPng/rocketMaket1.png");
+  background-image: url("https://github.com/Lubava7/port2/blob/master/public/images/transparentPng/rocketMaket1.png?raw=true");
   background-size: 15%;
   height: 100%;
 }
-/* 
-.projects-part {
-  margin: 50px 0 0 0;
-  background-color: rgba(106, 106, 106, 0.614);
-  width: 100%;
-  height: 100%;
-}
-
-.projCart {
-  height: 400px;
-  overflow-y: scroll;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0 0 0;
-}
-.projCart::-webkit-scrollbar {
-  width: 0;
-}
-.projCart img {
-  width: 100%;
-  height: 100%;
-  filter: blur(3px);
-}
-.projCart img:hover {
-  filter: blur(0px);
-  cursor: pointer;
-}
-.projCart .descript {
+.endurance {
+  margin: 0 0 0 50%;
   position: absolute;
-  z-index: 100;
+  width: 700px;
   height: 400px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  text-align: end;
+  animation: 16s endurance 1s linear infinite;
 }
-.projects-part .descript h1 {
-  color: black;
-}
-
-@media screen and (max-width: 599px) {
-  .projCart {
-    height: 400px;
-    overflow-y: scroll;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0 0 0;
+@keyframes endurance {
+  0% {
+    bottom: 20%;
+    transform: rotate(0deg);
   }
-  .projCart img {
-    width: 100%;
-    height: 100%;
-    filter: blur(3px);
+  25% {
+    bottom: 10%;
   }
-  .projCart img:hover {
-    filter: blur(0px);
-    cursor: pointer;
+  50% {
+    bottom: 0%;
   }
-  .projCart .descript {
-    position: absolute;
-    z-index: 100;
-    height: 400px;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    text-align: end;
+  75% {
+    bottom: 10%;
   }
-  .projects-part .descript h1 {
-    color: black;
+  100% {
+    bottom: 20%;
+    transform: rotate(360deg);
   }
 }
-@media screen and (min-width: 600px) {
-  .projCart {
-    height: 700px;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .projCart img {
-    width: 90%;
-    height: 90%;
-    filter: blur(3px);
-  }
-  .projCart img:hover {
-    filter: blur(0px);
-    cursor: pointer;
-  }
-  .projCart .descript {
-    z-index: 0;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: end;
-  }
-  .projects-part .descript h1 {
-    color: black;
-  }
-}
-@media screen and (min-width: 900px) {
-  .projects-part {
-    margin: 50px 0 0 0;
-    background-color: rgba(106, 106, 106, 0.614);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .projCart {
-    height: 500px;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-  }
-  .projCart img {
-    width: 400px;
-    height: 400px;
-    filter: blur(3px);
-  }
-  .projCart img:hover {
-    filter: blur(0px);
-    cursor: pointer;
-  }
-  .projCart .descript {
-    z-index: 0;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: end;
-  }
-  .projects-part .descript h1 {
-    color: black;
-  }
-} */
