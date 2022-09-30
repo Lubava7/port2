@@ -45,7 +45,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width:340px){
+@media screen and (max-width: 340px) {
   .A {
     position: relative;
     height: 300px;
@@ -75,7 +75,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width:570px) and (min-width:341px){
+@media screen and (max-width: 570px) and (min-width: 341px) {
   .A {
     position: relative;
     height: 300px;

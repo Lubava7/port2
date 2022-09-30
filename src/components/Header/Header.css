@@ -23,7 +23,7 @@
 }
 .first-block div {
   box-shadow: 2px 2px 2px 3px #383838;
-  background-color: rgba(106, 106, 106 , 0.8);
+  background-color: rgba(50, 16, 81, 0.8);
   margin: 3px;
   padding: 2px;
 }
@@ -34,8 +34,10 @@
 }
 .first-block .two {
   /* background-color: rgba(220, 85, 12, 0.5); */
-  width: 85px;
-  height: 90px;
+  background-image: url("../../../public/images/transparentPng/earth.png");
+  background-size: 150px;
+  width: 100px;
+  height: 100px;
 }
 .first-block .three {
   /* background-color: rgba(252, 236, 0, 0.5); */
@@ -49,8 +51,10 @@
 }
 .first-block .five {
   /* background-color: rgba(0, 208, 255, 0.5); */
-  width: 80px;
-  height: 85px;
+  background-image: url("../../../public/images/transparentPng/jupiter.png");
+  background-size: 150px;
+  width: 100px;
+  height: 100px;
 }
 
 /* ////////////////////////// */
@@ -75,7 +79,7 @@
   flex-direction: row-reverse;
   z-index: -10;
 }
-.second-block .one {
+/* .second-block .one {
   background-color: rgba(209, 28, 28, 0.5);
   width: 95px;
   height: 105px;
@@ -99,4 +103,4 @@
   background-color: rgba(0, 208, 255, 0.5);
   width: 75px;
   height: 110px;
-}
+} */

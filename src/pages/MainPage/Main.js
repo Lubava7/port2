@@ -1,11 +1,11 @@
 import React from "react";
-// import AutoWriteText from "../../components/AutoWriteText/AutoWriteText";
 import "./Main.css";
 import "../../components/Header/Header.css";
 import Title from "../../components/Title/Title";
 import { Link } from "react-router-dom";
 
-// import React from "react";
+// import TemporaryDrawer from "../../components/Drawer/Drawer";
+
 import VirtualSky from "react-virtual-sky";
 
 function Star() {
@@ -40,25 +40,21 @@ function Main() {
           <div className="three"></div>
           <div className="four"></div>
           <div className="five"></div>
-          <div className="one"></div>
-          <div className="two"></div>
-          <div className="three"></div>
-          <div className="four"></div>
-          <div className="five"></div>
 
-          <div className="base"></div>
+          <div className="base">
+            <img className="sputnic" src="" alt="sputnic" />
+          </div>
         </div>
 
         <div className="second-block"></div>
-        <div className="star-block">{Star()}</div>
+        {/* <div className="star-block">{Star()}</div> */}
 
         <div className="main-body">
-          <Title />
+          {/* <Title /> */}
+          {/* <TemporaryDrawer /> */}
           <div>
-            <div>
-              <h1>My projects down below</h1>
-            </div>
-            <div className="projects-part">
+            <div>{/* <h1>My projects down below</h1> */}</div>
+            {/* <div className="projects-part">
               <div className="projCart">
                 <div className="descript">
                   <Link to="/lending">
@@ -147,7 +143,7 @@ function Main() {
                   alt="google"
                 ></img>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
