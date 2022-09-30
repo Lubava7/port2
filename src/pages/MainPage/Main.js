@@ -42,7 +42,11 @@ function Main() {
           <div className="five"></div>
 
           <div className="base">
-            <img className="sputnic" src="" alt="sputnic" />
+            <img
+              className="sputnic"
+              src="https://github.com/Lubava7/port2/blob/master/public/images/transparentPng/sputnic.png?raw=true"
+              alt="sputnic"
+            />
           </div>
         </div>
 
