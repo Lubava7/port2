@@ -2,7 +2,7 @@ export const soundData = [
   {
     title: "Requiem for the Dream",
     artist: "Hans Zimmer",
-    src: "./music/dream1.mp3",
+    src: "./music/dream.mp3",
     photo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5YnfewitJXv1c_iNmx-bZ9iAgcaclJ3uXByevgvGWYR__mrGqYPtFIMSIIoFUhvBEWg&usqp=CAU",
   },
