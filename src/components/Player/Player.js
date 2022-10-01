@@ -11,12 +11,15 @@ import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 
+// import pause from "../../../public/images/svgIcons/pause.svg";
+
 function Player(props) {
   const audioEl = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     if (isPlaying) {
+      console.log("audio play phase");
       audioEl.current.play();
     } else {
       audioEl.current.pause();
@@ -48,7 +51,15 @@ function Player(props) {
   };
 
   return (
-    <Card sx={{ display: "flex", width: "293px", margin: "0 0 0 30%" }}>
+    <Card
+      sx={{
+        zIndex: 10,
+        position: "absolute",
+        display: "flex",
+        width: "293px",
+        margin: "200px 0 0 30%",
+      }}
+    >
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <CardContent sx={{ flex: "1 0 auto" }}>
           <Typography component="div" variant="h5">
@@ -66,16 +77,16 @@ function Player(props) {
           <source src={props.songs[props.currentSong].src} />
         </audio>
         <Box sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}>
-          <IconButton aria-label="previous">
+          <IconButton aria-label="previous" onClick={() => skipSong(false)}>
             <SkipPreviousIcon />
           </IconButton>
           <IconButton
             onClick={() => setIsPlaying(!isPlaying)}
             aria-label="play/pause"
           >
-            <PlayArrowIcon sx={{ height: 38, width: 38 }} />
+            {isPlaying ? "=" : <PlayArrowIcon sx={{ height: 38, width: 38 }} />}
           </IconButton>
-          <IconButton aria-label="next">
+          <IconButton aria-label="next" onClick={() => skipSong(true)}>
             <SkipNextIcon />
           </IconButton>
         </Box>
