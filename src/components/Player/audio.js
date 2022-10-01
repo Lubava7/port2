@@ -1,6 +1,15 @@
-exports soundData = [
-    {
-        "title" : "Hans Zimmer - Requiem for the Dream",
-        "url" : "https://github.com/Lubava7/port2/blob/master/public/music/Hans_Zimmer_Requiem_for_a_dream.mp3"
-    }
-]
+export const soundData = [
+  {
+    title: "Requiem for the Dream",
+    artist: "Hans Zimmer",
+    src: "./music/dream.mp3",
+    photo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl5YnfewitJXv1c_iNmx-bZ9iAgcaclJ3uXByevgvGWYR__mrGqYPtFIMSIIoFUhvBEWg&usqp=CAU",
+  },
+  {
+    title: "Time",
+    artist: "Hans Zimmer",
+    src: "./music/time.mp3",
+    photo: "https://i1.sndcdn.com/artworks-000242182507-havyfv-t500x500.jpg",
+  },
+];
