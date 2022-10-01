@@ -37,13 +37,10 @@ function Main() {
               alt="endurance"
             />
           </div>
-
-          <audio controls>
-            <source
-              type="audio/mpeg"
-              src="public/music/Hans_Zimmer_Requiem_for_a_dream.mp3"
-            />
-          </audio>
+          {/* <audio
+            controls
+            src="https://github.com/Lubava7/port2/blob/master/public/music/Hans_Zimmer_Requiem_for_a_dream.mp3"
+          ></audio> */}
         </div>
       </div>
     </div>
