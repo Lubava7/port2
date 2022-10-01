@@ -93,7 +93,7 @@ a {
   position: absolute;
   width: 700px;
   height: 400px;
-  animation: 16s endurance 1s linear infinite;
+  animation: 20s endurance 1s linear infinite;
 }
 @keyframes endurance {
   0% {
