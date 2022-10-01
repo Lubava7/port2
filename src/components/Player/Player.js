@@ -62,16 +62,18 @@ function Player(props) {
             {props.songs[props.currentSong].artist}
           </Typography>
         </CardContent>
-        <audio src={props.songs[props.currentSong].src} ref={audioEl}></audio>
+        <audio ref={audioEl}>
+          <source src={props.songs[props.currentSong].src} />
+        </audio>
         <Box sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}>
           <IconButton aria-label="previous">
             <SkipPreviousIcon />
           </IconButton>
-          <IconButton aria-label="play/pause">
-            <PlayArrowIcon
-              sx={{ height: 38, width: 38 }}
-              onClick={() => setIsPlaying(!isPlaying)}
-            />
+          <IconButton
+            onClick={() => setIsPlaying(!isPlaying)}
+            aria-label="play/pause"
+          >
+            <PlayArrowIcon sx={{ height: 38, width: 38 }} />
           </IconButton>
           <IconButton aria-label="next">
             <SkipNextIcon />

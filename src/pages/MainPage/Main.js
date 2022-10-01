@@ -57,16 +57,15 @@ function Main() {
               alt="endurance"
             />
           </div>
-
-          <Player
-            setCurrentSong={setCurrentSong}
-            currentSong={currentSong}
-            nextSong={nextSong}
-            songs={songs}
-            // song={songs[currentSong]} nextSong={songs[nextSong]}
-          />
         </div>
       </div>
+      <Player
+        setCurrentSong={setCurrentSong}
+        currentSong={currentSong}
+        nextSong={nextSong}
+        songs={songs}
+        // song={songs[currentSong]} nextSong={songs[nextSong]}
+      />
     </div>
   );
 }
