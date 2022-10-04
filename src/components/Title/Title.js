@@ -5,12 +5,21 @@ function Title() {
   return (
     <div className="A">
       <div className="B">
+        <button>O</button>
+        <button>P</button>
+        <button>E</button>
+        <button>N</button>
+        <button> </button>
+        <button>M</button>
+        <button>E</button>
+      </div>
+      {/* <div className="B">
         <button>H</button>
         <button>i</button>
         <button> </button>
         <button>!</button>
-      </div>
-      <div className="B">
+      </div> */}
+      {/* <div className="B">
         <button>I</button>
         <button>'</button>
         <button>m</button>
@@ -25,8 +34,8 @@ function Title() {
         <button> </button>
         <button>,</button>
         <button> </button>
-      </div>
-      <div className="B">
+      </div> */}
+      {/* <div className="B">
         <button>w</button>
         <button>e</button>
         <button>b</button>
@@ -40,7 +49,7 @@ function Title() {
         <button>p</button>
         <button>e</button>
         <button>r</button>
-      </div>
+      </div> */}
     </div>
   );
 }

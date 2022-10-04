@@ -1,4 +1,4 @@
-.main-header {
+.main_header {
   width: 100%;
   height: 100%;
   /* background-color: #2d3142; */
@@ -8,7 +8,7 @@
   perspective: 1px;
   z-index: -5;
 }
-.main-header .first-block {
+.main_header .first_block {
   position: absolute;
   top: 0;
   right: 0;
@@ -21,45 +21,45 @@
   display: flex;
   flex-direction: row;
 }
-.first-block div {
+.first_block div {
   box-shadow: 2px 2px 2px 3px #383838;
   background-color: rgba(50, 16, 81, 0.8);
   margin: 3px;
   padding: 2px;
 }
-.first-block .one {
+.first_block .one {
   width: 75px;
   height: 80px;
 }
-.first-block .two {
-  background-image: url("../../images/transparentPng/earth.png");
+.first_block .two {
+  background-image: url("https://github.com/Lubava7/port2/blob/master/src/images/transparentPng/earth.png?raw=true");
   background-size: 150px;
   width: 100px;
   height: 100px;
 }
-.first-block .three {
+.first_block .three {
   width: 50px;
   height: 55px;
 }
-.first-block .four {
+.first_block .four {
   width: 45px;
   height: 50px;
 }
-.first-block .five {
-  background-image: url("../../images/transparentPng/jupiter.png");
+.first_block .five {
+  background-image: url("https://github.com/Lubava7/port2/blob/master/src/images/transparentPng/jupiter.png?raw=true");
   background-size: 150px;
   width: 100px;
   height: 100px;
 }
 
 /* ////////////////////////// */
-.second-block div {
+.secondblock div {
   box-shadow: 2px 2px 2px 3px #383838;
   background-color: rgb(106, 106, 106);
   margin: 3px;
   padding: 2px;
 }
-.main-header .second-block {
+.main_header .second_block {
   position: absolute;
   top: 0;
   right: 0;

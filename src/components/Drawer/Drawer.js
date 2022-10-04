@@ -1,6 +1,9 @@
-import * as React from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 import drawer from "../../styles/Drawer.module.scss";
+
+import Title from "../Title/Title";
 
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -34,32 +37,54 @@ export default function TemporaryDrawer() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: "100%" }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List sx={{ display: "flex", flexDirection: "row" }}>
-        {["Projects", "About Me"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 4 === 0 ? <EarthSvg /> : <Astronaut />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-        {["Send email", "Games"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 4 === 0 ? <Email /> : <Game />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <EarthSvg />
+            </ListItemIcon>
+            <Link className={drawer.a_link} to="/projects">
+              <ListItemText>Projects</ListItemText>
+            </Link>
+          </ListItemButton>
+        </ListItem>
+
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <Astronaut />
+            </ListItemIcon>
+            <Link className={drawer.a_link} to="/aboutMe">
+              <ListItemText>About Me</ListItemText>
+            </Link>
+          </ListItemButton>
+        </ListItem>
+
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <Email />
+            </ListItemIcon>
+            <Link className={drawer.a_link} to="/contacts">
+              <ListItemText>Send Email</ListItemText>
+            </Link>
+          </ListItemButton>
+        </ListItem>
+
+        <ListItem disablePadding>
+          <ListItemButton>
+            <ListItemIcon>
+              <Game />
+            </ListItemIcon>
+            <Link className={drawer.a_link} to="/games">
+              <ListItemText>Games</ListItemText>
+            </Link>
+          </ListItemButton>
+        </ListItem>
       </List>
     </Box>
   );
@@ -68,8 +93,16 @@ export default function TemporaryDrawer() {
     <div>
       {["left"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>open me</Button>
+          <Button
+            className={drawer.button}
+            onClick={toggleDrawer(anchor, true)}
+          >
+            <Title />
+          </Button>
           <Drawer
+            classes={{
+              paper: drawer.paper, // override styles mui
+            }}
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}

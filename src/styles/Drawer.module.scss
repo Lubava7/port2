@@ -1,13 +1,19 @@
-.MuiPaper-root {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  height: 70px !important;
+// если не видны на странице , то просто сперва все закоментировать, а потом вернуть
+.paper {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
   width: 100%;
-  color: #f5deb3 !important;
-  margin: 150px 0 0 0 !important;
-  font-size: 27px !important;
+  color: #f5deb3;
+  margin: 150px 0 0 0;
+  font-size: 27px;
 }
-.MuiButton-root {
-  font-size: 27px !important;
-  background-image: rgba(0, 0, 0, 0.5) !important;
-  color: rgba(104, 98, 187, 0.5) !important;
+.button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(104, 98, 187, 0.5);
+  margin: 150px 0 0 0;
+}
+// ///
+.a_link {
+  color: #f5deb3;
+  font-size: 27px;
 }

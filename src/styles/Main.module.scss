@@ -2,10 +2,8 @@ a {
   text-decoration: none;
   color: whitesmoke;
 }
-.main-header {
-  height: 100%;
-}
-.star-block {
+
+.star_block {
   background-position: relative;
   background-repeat: no-repeat;
   background-size: 500px;
@@ -18,19 +16,10 @@ a {
   width: 100%;
   transform: translateZ(-1px) scale(2);
 }
-.main-body {
-  padding-top: 200px;
-  background-color: rgba(106, 106, 106, 0.614);
-  color: whitesmoke;
-  font-weight: 400;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
 
-.first-block .base {
+.first_block .base {
   background-color: rgba(16, 23, 71, 0.4);
-  background-image: url("https://github.com/Lubava7/port2/blob/master/public/images/transparentPng/cosmos.jpg?raw=true");
+  background-image: url("../images/transparentPng/cosmos.jpg");
   background-repeat: no-repeat;
   position: absolute;
   top: 100px;
@@ -83,8 +72,8 @@ a {
   width: 700px;
   z-index: 0;
 }
-.second-block {
-  background-image: url("https://github.com/Lubava7/port2/blob/master/public/images/transparentPng/rocketMaket1.png?raw=true");
+.second_block {
+  background-image: url("../images/transparentPng/rocketMaket1.png");
   background-size: 15%;
   height: 100%;
 }
@@ -114,3 +103,99 @@ a {
     transform: rotate(360deg);
   }
 }
+// Header
+.main_header {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  perspective: 1px;
+  z-index: -5;
+}
+.main_body {
+  padding-top: 200px;
+  background-color: rgba(106, 106, 106, 0.614);
+  color: whitesmoke;
+  font-weight: 400;
+  width: 100%;
+  // height: 100%;
+  position: absolute;
+}
+
+.main_header .first_block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(0);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: row;
+}
+.first_block div {
+  box-shadow: 2px 2px 2px 3px #383838;
+  background-color: rgba(50, 16, 81, 0.8);
+  margin: 3px;
+  padding: 2px;
+}
+.first_block .one {
+  width: 75px;
+  height: 80px;
+}
+.first_block .two {
+  background-image: url("../images/transparentPng/earth.png");
+  background-size: 150px;
+  width: 100px;
+  height: 100px;
+}
+.first_block .three {
+  width: 50px;
+  height: 55px;
+}
+.first_block .four {
+  width: 45px;
+  height: 50px;
+}
+.first_block .five {
+  background-image: url("../images/transparentPng/jupiter.png");
+  background-size: 150px;
+  width: 100px;
+  height: 100px;
+}
+
+.secondblock div {
+  box-shadow: 2px 2px 2px 3px #383838;
+  background-color: rgb(106, 106, 106);
+  margin: 3px;
+  padding: 2px;
+}
+.main_header .second_block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(2);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: -10;
+}
+
+// Header
+.p_p {
+  margin: 1000px 0 0 0;
+  height: 100%;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+//   font-size: 20px;
+// line-height: 20%;
