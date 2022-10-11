@@ -6,7 +6,7 @@ import drawer from "../../styles/Drawer.module.scss";
 import Title from "../Title/Title";
 
 import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
+// import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -99,16 +99,14 @@ export default function TemporaryDrawer() {
           >
             <Title />
           </Button>
-          <Drawer
-            classes={{
-              paper: drawer.paper, // override styles mui
-            }}
+          <div
+            className={drawer.paper}
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
           >
             {list(anchor)}
-          </Drawer>
+          </div>
         </React.Fragment>
       ))}
     </div>
