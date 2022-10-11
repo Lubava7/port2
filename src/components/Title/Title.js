@@ -5,51 +5,11 @@ function Title() {
   return (
     <div className="A">
       <div className="B">
-        <button>O</button>
-        <button>P</button>
-        <button>E</button>
-        <button>N</button>
-        <button> </button>
         <button>M</button>
         <button>E</button>
+        <button>N</button>
+        <button>U</button>
       </div>
-      {/* <div className="B">
-        <button>H</button>
-        <button>i</button>
-        <button> </button>
-        <button>!</button>
-      </div> */}
-      {/* <div className="B">
-        <button>I</button>
-        <button>'</button>
-        <button>m</button>
-        <button> </button>
-        <button>L</button>
-        <button>i</button>
-        <button>u</button>
-        <button>b</button>
-        <button>a</button>
-        <button>v</button>
-        <button>a</button>
-        <button> </button>
-        <button>,</button>
-        <button> </button>
-      </div> */}
-      {/* <div className="B">
-        <button>w</button>
-        <button>e</button>
-        <button>b</button>
-        <button> </button>
-        <button>d</button>
-        <button>e</button>
-        <button>v</button>
-        <button>e</button>
-        <button>l</button>
-        <button>o</button>
-        <button>p</button>
-        <button>e</button>
-        <button>r</button>
-      </div> */}
     </div>
   );
 }

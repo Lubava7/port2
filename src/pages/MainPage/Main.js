@@ -3,7 +3,7 @@ import React from "react";
 
 import mainPage from "../../styles/Main.module.scss";
 
-import TemporaryDrawer from "../../components/Drawer/Drawer";
+import OpenButton from "../../components/Drawer/OpenButon";
 
 function Main() {
   return (
@@ -96,7 +96,7 @@ function Main() {
       </div>
 
       <div>
-        <TemporaryDrawer />
+        <OpenButton />
       </div>
     </div>
   );
