@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port2/static/css/main.ba91739b.css",
-    "main.js": "/port2/static/js/main.ccdbc75f.js",
+    "main.css": "/port2/static/css/main.8686aa21.css",
+    "main.js": "/port2/static/js/main.5d30d578.js",
     "static/js/787.ad129229.chunk.js": "/port2/static/js/787.ad129229.chunk.js",
     "static/media/earth.png": "/port2/static/media/earth.291280b1925553c8ba05.png",
     "static/media/cosmos.jpg": "/port2/static/media/cosmos.14284f5be0c5c05f52ed.jpg",
@@ -12,12 +12,12 @@
     "static/media/astronaut.svg": "/port2/static/media/astronaut.a5879aae5561f80d9ed803e132defb1c.svg",
     "static/media/email.svg": "/port2/static/media/email.173d89b292a4e5d5dfe61fb05828cf5f.svg",
     "static/media/game.svg": "/port2/static/media/game.a36b62d1eaf16c6a535cb61d23e40416.svg",
-    "main.ba91739b.css.map": "/port2/static/css/main.ba91739b.css.map",
-    "main.ccdbc75f.js.map": "/port2/static/js/main.ccdbc75f.js.map",
+    "main.8686aa21.css.map": "/port2/static/css/main.8686aa21.css.map",
+    "main.5d30d578.js.map": "/port2/static/js/main.5d30d578.js.map",
     "787.ad129229.chunk.js.map": "/port2/static/js/787.ad129229.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba91739b.css",
-    "static/js/main.ccdbc75f.js"
+    "static/css/main.8686aa21.css",
+    "static/js/main.5d30d578.js"
   ]
 }
