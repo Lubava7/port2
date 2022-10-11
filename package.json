@@ -1,7 +1,7 @@
 {
   "name": "port2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://lubava7.github.io/port2/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
