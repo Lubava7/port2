@@ -1,0 +1,90 @@
+.figure {
+  background-color: #2d5e90;
+  height: 2%;
+  width: 3%;
+  position: absolute;
+  z-index: 1;
+  animation: rotate 7s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes Rrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.square {
+  top: 30px;
+  right: 40px;
+  background-color: #12365d;
+}
+.circle {
+  top: 150px;
+  left: 40px;
+  border-radius: 50%;
+}
+.star {
+  top: 230px;
+  right: 50px;
+  background-color: #12365d;
+  animation: Rrotate 7s linear infinite;
+}
+.parallelogram {
+  top: 330px;
+  left: 30px;
+  transform: skew(23deg);
+}
+.triangle {
+  background-color: transparent;
+  top: 370px;
+  left: 50px;
+  position: absolute;
+  height: 0;
+  width: 0;
+  z-index: 1;
+  border-bottom: 20px solid #12365d;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  animation: Rrotate 7s linear infinite;
+}
+.trapezoid {
+  background-color: transparent;
+  top: 430px;
+  right: 40px;
+  position: absolute;
+  z-index: 1;
+  height: 0;
+  width: 15px;
+  border-bottom: 20px solid #12365d;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.six-star {
+  top: 550px;
+  right: 100px;
+}
+
+.pentagon {
+  top: 600px;
+  right: 40px;
+  background-color: #12365d;
+  animation: Rrotate 7s linear infinite;
+}
+.hexagon {
+  top: 700px;
+  left: 40px;
+  background-color: #12365d;
+}
+.heart {
+  top: 760px;
+  right: 40px;
+}

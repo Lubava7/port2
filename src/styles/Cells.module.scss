@@ -1,0 +1,78 @@
+.all_cells {
+  width: 100%;
+  height: 100%;
+}
+.grid {
+  border: 3px solid black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  filter: blur(4px);
+}
+.grid2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 100% 0 0 0;
+  align-items: center;
+  filter: blur(4px);
+}
+.grid div {
+  margin: 10px;
+  width: 25%;
+  height: 350px;
+  border: 1px solid black;
+}
+.red_div {
+  background-color: rgba(248, 18, 18, 0.813);
+  animation: red-cell 5s linear infinite;
+}
+// @keyframes red-cell {
+//   0% {
+//     margin: 0;
+//   }
+//   25% {
+//     margin: 0 0 0 350px;
+//   }
+//   50% {
+//     margin: 350px 0 350px 0;
+//   }
+//   75% {
+//     margin: 0 -350px 350px 0;
+//   }
+//   100% {
+//     margin: 0;
+//   }
+// }
+.orange_div {
+  background-color: rgba(248, 133, 18, 0.813);
+}
+
+.green_div {
+  background-color: rgba(49, 248, 18, 0.813);
+}
+
+.yellow_div {
+  background-color: rgba(255, 255, 47, 0.813);
+}
+
+.violet_div {
+  background-color: rgba(171, 18, 248, 0.813);
+}
+
+.blue_div {
+  background-color: rgba(18, 198, 248, 0.813);
+}
+
+.brown_div {
+  background-color: rgba(97, 51, 2, 0.813);
+}
+
+.pink_div {
+  background-color: rgba(248, 18, 179, 0.813);
+}

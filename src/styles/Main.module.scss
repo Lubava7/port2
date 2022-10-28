@@ -1,201 +1,38 @@
-a {
-  text-decoration: none;
-  color: whitesmoke;
-}
-
-.star_block {
-  background-position: relative;
-  background-repeat: no-repeat;
-  background-size: 500px;
-  height: 100%;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  bottom: 0;
-  left: 100px;
+.main {
+  background-color: #aa6862;
+  height: 100vh;
   width: 100%;
-  transform: translateZ(-1px) scale(2);
+  overflow: hidden;
 }
-
-.first_block .base {
-  background-color: rgba(16, 23, 71, 0.4);
-  background-image: url("../images/transparentPng/cosmos.jpg");
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 100px;
-  right: 0;
-  bottom: 0;
-  left: 350px;
-  transform: translateZ(0);
-  border-radius: 50%;
-  height: 600px;
-  width: 900px;
+.greet {
+  margin: 200px 0 0 0;
+  width: 90%;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #f5deb3;
+  text-align: end;
+  background-color: #750a23;
+  padding: 10px;
 }
-.sputnic {
-  position: absolute;
-  height: 200px;
-  width: 250px;
-  animation: moveLeft 30s linear infinite, 16s rotate 1s linear infinite;
+.contact {
+  margin: 30px 0 0 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #f5deb3;
+  text-align: start;
+  // background-color: #750a23;
+  background-color: #d95d27;
+  padding: 10px;
 }
-@keyframes moveLeft {
-  0% {
-    left: 140%;
-  }
-  100% {
-    left: -140%;
-  }
-}
-@keyframes rotate {
-  0% {
-    bottom: 20%;
-    transform: rotate(0deg);
-  }
-  25% {
-    bottom: 10%;
-  }
-  50% {
-    bottom: 0%;
-  }
-  75% {
-    bottom: 10%;
-  }
-  100% {
-    bottom: 20%;
-    transform: rotate(360deg);
-  }
-}
-.rocket {
-  position: absolute;
-  height: 1400px;
-  width: 700px;
-  z-index: 0;
-}
-.second_block {
-  background-image: url("../images/transparentPng/rocketMaket1.png");
-  background-size: 15%;
-  height: 100%;
-}
-.endurance {
-  margin: 0 0 0 50%;
-  position: absolute;
-  width: 700px;
-  height: 400px;
-  animation: 20s endurance 1s linear infinite;
-}
-@keyframes endurance {
-  0% {
-    bottom: 20%;
-    transform: rotate(0deg);
-  }
-  25% {
-    bottom: 10%;
-  }
-  50% {
-    bottom: 0%;
-  }
-  75% {
-    bottom: 10%;
-  }
-  100% {
-    bottom: 20%;
-    transform: rotate(360deg);
-  }
-}
-// Header
-.main_header {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: fixed;
-  perspective: 1px;
-  z-index: -5;
-}
-.main_body {
-  padding-top: 200px;
-  background-color: rgba(106, 106, 106, 0.614);
-  color: whitesmoke;
-  font-weight: 400;
-  width: 100%;
-  // height: 100%;
-  position: absolute;
-}
-
-.main_header .first_block {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(0);
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.3);
+.time {
+  height: 50px;
+  font-size: 30px;
+  color: #f5deb3;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  padding: 50px 100px 0 0;
 }
-.first_block div {
-  box-shadow: 2px 2px 2px 3px #383838;
-  background-color: rgba(50, 16, 81, 0.8);
-  margin: 3px;
-  padding: 2px;
-}
-.first_block .one {
-  width: 75px;
-  height: 80px;
-}
-.first_block .two {
-  background-image: url("../images/transparentPng/earth.png");
-  background-size: 150px;
-  width: 100px;
-  height: 100px;
-}
-.first_block .three {
-  width: 50px;
-  height: 55px;
-}
-.first_block .four {
-  width: 45px;
-  height: 50px;
-}
-.first_block .five {
-  background-image: url("../images/transparentPng/jupiter.png");
-  background-size: 150px;
-  width: 100px;
-  height: 100px;
-}
-
-.secondblock div {
-  box-shadow: 2px 2px 2px 3px #383838;
-  background-color: rgb(106, 106, 106);
-  margin: 3px;
-  padding: 2px;
-}
-.main_header .second_block {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(2);
-
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  z-index: -10;
-}
-
-// Header
-.p_p {
-  margin: 1000px 0 0 0;
-  height: 100%;
-  font-size: 20px;
-  line-height: 120%;
-  color: rgb(0, 0, 0);
-  border: 2px solid black;
-}
-//   font-size: 20px;
-// line-height: 20%;

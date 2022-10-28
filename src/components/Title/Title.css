@@ -7,12 +7,12 @@
   cursor: pointer;
 }
 .B {
-  border: 2px solid black;
   outline: none;
   display: flex;
   flex-direction: row;
 }
 button {
+  color: #f5deb3;
   border: none;
   background: transparent;
   font-size: 21px;
@@ -21,7 +21,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: rgb(110, 42, 161);
+  color: #f2a20d;
   animation: animate 0.6s;
   transition: color 0.3s ease-in;
 }

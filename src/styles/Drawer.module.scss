@@ -1,14 +1,13 @@
 .paper {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 600px;
+  background-color: rgba(104, 10, 32, 0.9);
+  height: 500px;
   width: 250px;
   color: #f5deb3;
   margin: 150px 0 0 0;
   font-size: 19px;
   position: absolute;
   z-index: 1;
-  transition: all 0.5s linear;
-  animation: appear 0.5s linear forwards;
+  animation: appear 0.2s linear forwards;
 }
 @keyframes appear {
   0% {
@@ -18,33 +17,22 @@
     transform: translateX(0%);
   }
 }
+
 .button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: rgba(104, 98, 187, 0.5);
+  background-color: #750a23;
+  display: flex;
   cursor: pointer;
-  width: 114px;
+  width: 110px;
   position: absolute;
   z-index: 1;
-  margin: 119px 0 0 20px;
+  margin: 80px 0 0 20px;
   animation: 5s bounce linear infinite;
-}
-@keyframes bounce {
-  0% {
-    transform: translateX(0);
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: translateX(0%);
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: translateX(0%);
-  }
 }
 
 .a_link {
   color: #f5deb3;
   font-size: 27px;
+  text-decoration: none;
 }
 .item {
   height: 40px;

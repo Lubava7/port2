@@ -8,6 +8,7 @@ import { ReactComponent as EarthSvg } from "../../images/svgIcons/earthSvg.svg";
 import { ReactComponent as Astronaut } from "../../images/svgIcons/astronaut.svg";
 import { ReactComponent as Email } from "../../images/svgIcons/email.svg";
 import { ReactComponent as Game } from "../../images/svgIcons/game.svg";
+import { Icon } from "@iconify/react";
 
 export default function TemporaryDrawer({ isOpen, setIsOpen }) {
   if (!isOpen) return;
@@ -17,6 +18,15 @@ export default function TemporaryDrawer({ isOpen, setIsOpen }) {
         <div className={drawer.paper}>
           <section role="presentation">
             <div className={drawer.main_part}>
+              <div className={drawer.item}>
+                <div className={drawer.icon}>
+                  <Icon icon="gg:menu-cake" width="26" height="26" />
+                </div>
+                <Link className={drawer.a_link} to="/">
+                  <p>Main</p>
+                </Link>
+              </div>
+
               <div className={drawer.item}>
                 <div className={drawer.icon}>
                   <EarthSvg />
