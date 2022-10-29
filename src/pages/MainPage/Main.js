@@ -21,12 +21,6 @@ function Clock() {
 }
 
 function Main() {
-  function now() {
-    return new Date();
-  }
-  const currentDateTime = new Date();
-  const timeText = currentDateTime.toLocaleTimeString("en-US");
-
   return (
     <div className={main.main}>
       <div className={main.time}>{Clock()}</div>

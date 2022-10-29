@@ -10,6 +10,12 @@ function Projects() {
     <div className={project.main}>
       <Background />
       <OpenButton />
+      <div className={project.layer2}>
+        <Background />
+      </div>
+      <div className={project.layer3}>
+        <Background />
+      </div>
       <section className={project.projects}>
         <div>
           <Link to="/landing">
@@ -74,6 +80,46 @@ function Projects() {
         <div>
           <a href="https://lubava7.github.io/google-page/">
             <h1>My first HTML-markup</h1>
+          </a>
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/src/images/img/googlepage.jpg?raw=true"
+            alt="google"
+          />
+        </div>
+
+        <div>
+          <a href="https://lubava7.github.io/venarus/">
+            <h1>Venarus ad Page</h1>
+          </a>
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/src/images/img/googlepage.jpg?raw=true"
+            alt="google"
+          />
+        </div>
+
+        <div>
+          <a href="https://lubava7.github.io/onpoint-test/">
+            <h1>Test Task for Onpoint</h1>
+          </a>
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/src/images/img/googlepage.jpg?raw=true"
+            alt="google"
+          />
+        </div>
+
+        <div>
+          <a href="https://lubava7.github.io/yamaguchi/">
+            <h1>Test Task for Yamaguchi comp</h1>
+          </a>
+          <img
+            src="https://github.com/Lubava7/port2/blob/master/src/images/img/googlepage.jpg?raw=true"
+            alt="google"
+          />
+        </div>
+
+        <div>
+          <a href=" https://lubava7.github.io/vc-yamaguchi/">
+            <h1>Test Task for Yamaguchi</h1>
           </a>
           <img
             src="https://github.com/Lubava7/port2/blob/master/src/images/img/googlepage.jpg?raw=true"
