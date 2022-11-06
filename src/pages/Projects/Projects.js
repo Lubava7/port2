@@ -11,8 +11,8 @@ function Projects() {
       <Background />
       <OpenButton />
 
-      <div className={project.projects}>
-        <secton className={project.carousel}>
+      <div className={project.carousel}>
+        <div className={project.inner}>
           <div>
             <Link to="/landing">
               <h1>Landing</h1>
@@ -122,7 +122,7 @@ function Projects() {
               alt="google"
             />
           </div>
-        </secton>
+        </div>
       </div>
     </div>
   );
