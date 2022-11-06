@@ -28,30 +28,30 @@ export default function TemporaryDrawer({ isOpen, setIsOpen }) {
 
               <div className={drawer.item}>
                 <div className={drawer.icon}>
-                  <EarthSvg />
+                  <Astronaut />
                 </div>
                 <Link className={drawer.a_link} to="/projects">
                   <p>Projects</p>
                 </Link>
               </div>
 
-              <div className={drawer.item}>
-                <div className={drawer.icon}>
-                  <Astronaut />
+              {/* <div className={drawer.item}>
+               <div className={drawer.icon}>
+                  <EarthSvg />
                 </div>
                 <Link className={drawer.a_link} to="/aboutMe">
                   <p>About Me</p>
                 </Link>
-              </div>
+              </div> */}
 
-              <div className={drawer.item}>
+              {/* <div className={drawer.item}>
                 <div className={drawer.icon}>
                   <Email />
                 </div>
                 <Link className={drawer.a_link} to="/contacts">
                   <p>Send Email</p>
                 </Link>
-              </div>
+              </div> */}
 
               <div className={drawer.item}>
                 <div className={drawer.icon}>

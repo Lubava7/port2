@@ -5,6 +5,8 @@ import main from "../../styles/Main.module.scss";
 import OpenButton from "../../components/Drawer/OpenButton";
 import Background from "../../components/Background/Background";
 
+import { Icon } from "@iconify/react";
+
 function Clock() {
   const [date, setDate] = useState(new Date());
 
@@ -27,19 +29,27 @@ function Main() {
       <Background />
       <OpenButton />
       <section className={main.greet}>
-        <div>
-          <h1>Hi</h1>
+        <div className={main.text}>
+          <h1>Frontend Developer</h1>
           <p>
-            I 'm Lyubava <br /> Frontend Developer
+            Lyubava Kanivetc
+            <br />
           </p>
         </div>
+        <div className={main.photo_me}></div>
       </section>
       <section className={main.contact}>
         <div>
           <h1>Want to Contact Me?</h1>
           <p>
-            Send me an Email <br />
-            or <br /> My phone number: +7(977)325-53-35
+            <a href="https://t.me/URCHNG">
+              Write me
+              <span>
+                <Icon icon="logos:telegram" />
+              </span>
+            </a>
+            <br />
+            or <br /> Call me +7(977)325-53-35
           </p>
         </div>
       </section>

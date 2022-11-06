@@ -1,9 +1,9 @@
 .paper {
   background-color: rgba(104, 10, 32, 0.9);
-  height: 500px;
+  height: 330px;
   width: 250px;
   color: #f5deb3;
-  margin: 150px 0 0 0;
+  margin: 100px 0 0 0;
   font-size: 19px;
   position: absolute;
   z-index: 1;
@@ -22,10 +22,9 @@
   background-color: #750a23;
   display: flex;
   cursor: pointer;
-  // width: 110px;
   position: absolute;
   z-index: 1;
-  margin: 80px 0 0 20px;
+  margin: 30px 0 0 20px;
   animation: 5s bounce linear infinite;
 }
 
